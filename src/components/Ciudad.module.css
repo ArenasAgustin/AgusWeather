@@ -1,0 +1,14 @@
+.ciudad{
+	color: #112D4E;
+}
+
+.divCity{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.text{
+	font-size: 18px;
+}

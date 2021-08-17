@@ -1,0 +1,82 @@
+.card{
+  position: relative;
+  background: #DBE2EF;
+  background: linear-gradient(90deg, #DBE2EF 0%, #3F72AF 100%);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #112D4E;
+  padding: 16px;
+  width: 300px;
+  min-width: 300px;
+  margin: 20px;
+  box-shadow: 2px 3px 6px #112D4E;
+}
+
+.card:hover{
+  transform:scale(1.1);
+}
+
+.close{
+  background-color: #F40B10;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #4E1111;
+  padding: 3px 7px;
+  cursor: pointer;
+  text-align: center;
+  color: #F9F7F7;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px #112D4E;
+}
+
+.close:hover{
+  box-shadow: #4E1111 1px 1px 3px 0px inset;
+  filter: brightness(110%);
+}
+
+.flexDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.itemDiv{
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.parraf{
+  margin-bottom: 2px;
+  color: black;
+}
+
+.imgItem{
+  border-radius: 50%;
+  width: 80px;
+}
+
+.cityLink{
+  text-decoration: none;
+  font-size: 20px;
+  align-self: center;
+  color: #112D4E;
+}
+
+.cityLink:hover{
+  color: #112D4E;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .card{
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,15 @@
+.flexConteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .flexConteiner{
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  }
+}

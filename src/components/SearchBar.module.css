@@ -1,0 +1,40 @@
+.input{
+	border-radius: 6px;
+	border:  2px solid #112D4E;
+	margin: 10px;
+	width: 300px;
+	box-sizing: border-box;
+	background-position: 9px 10px;
+  background-repeat: no-repeat;
+  padding-left: 10px; 
+}
+
+.btn{
+	background-color: #3F72AF;
+	border-radius: 6px;
+	padding: 6px 11px;
+	color: #F9F7F7;
+	cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  border-style: solid;
+  border-width: thin;
+	border-color: #112D4E;
+	box-shadow: 1px 1px 3px #112D4E;
+}
+
+.btn:hover{
+	filter: brightness(110%);
+	box-shadow: inset 1px 1px 3px 0px #112D4E;
+}
+
+@media (max-width: 700px) {
+  .input{
+		width: 200px;
+  }
+
+  .btn{
+  	margin: 3px;
+  	font-size: 15px;
+  }
+}

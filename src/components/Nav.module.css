@@ -1,0 +1,58 @@
+.logoHenry{
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.home, .about{
+  text-decoration: none;
+  font-size: 20px;
+  align-self: center;
+  color: #F9F7F7;
+}
+
+.about:hover{
+  color: #F9F7F7;
+  text-decoration: none;
+}
+
+.anchor{
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  align-self: center;
+}
+
+.anchor:hover{
+  color: #F9F7F7;
+  text-decoration: none;
+}
+
+.searchBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-content: center;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #112D4E;
+  padding: 10px 0px;
+}
+
+@media (max-width: 600px) {
+  .navBar{
+    flex-direction: column;
+  }
+
+  .logoHenry{
+    width: 30px;
+    height: 30px;
+  }
+}

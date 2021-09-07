@@ -9,7 +9,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
             <button onClick = {onClose} className={styleCard.close}>X</button> 
         </div>
         <div >
-          <Link to={`/ciudad/${id}`} >
+          <Link to={`/AgusWeather/ciudad/${id}`} >
             <h5 className={styleCard.cityLink}>{name}</h5>
           </Link>
           

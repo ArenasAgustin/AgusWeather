@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Nav({onSearch}) {
   return (
     <nav className={styleNav.navBar}>
-        <a href = "../" className = {styleNav.anchor}>
+        <a href = "/AgusWeather/" className = {styleNav.anchor}>
           <img
             alt = "logo Henry Bootcamp"
             src = {Logo}
@@ -22,7 +22,7 @@ function Nav({onSearch}) {
           className={styleNav.searchBar}
         />
 
-        <Link to='/about' className={styleNav.about}>
+        <Link to='/AgusWeather/about' className={styleNav.about}>
           <span>About</span>
         </Link>
     </nav>

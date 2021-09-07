@@ -9,7 +9,10 @@ export default function Card ({min, max, name, img, onClose, id}) {
             <button onClick = {onClose} className={styleCard.close}>X</button> 
         </div>
         <div >
-          <h3 >{name}</h3>
+          <Link to={`/ciudad/${id}`} >
+            <h5 className={styleCard.cityLink}>{name}</h5>
+          </Link>
+          
           <div className={styleCard.flexDiv}>
             <div className = {styleCard.itemDiv}>
               <h5>Min</h5>
@@ -32,10 +35,6 @@ export default function Card ({min, max, name, img, onClose, id}) {
               className = {styleCard.imgItem}/>
             </div>
           </div>
-
-        <Link to={`/ciudad/${id}`} >
-          <h5 className={styleCard.cityLink}>{name}</h5>
-        </Link>
         </div>
       </div>
     );

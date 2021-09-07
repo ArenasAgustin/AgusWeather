@@ -49,29 +49,29 @@ function App() {
   return (
     <div className="App">
       <Route
-              path='/'
-              render={() => <Nav onSearch={onSearch} />}
-          />
+          path='/AgusWeather/'
+          render={() => <Nav onSearch={onSearch} />}
+      />
 
-          <Route
-              exact path='/about'
-              component={About}
-          />
+      <Route
+          exact path='/AgusWeather/about'
+          component={About}
+      />
 
-          <Route
-            exact path='/'
-            render={() => 
-              <Cards
-                cities={cities}
-                onClose={onClose}
-              />
-            }
+      <Route
+        exact path='/AgusWeather/'
+        render={() => 
+          <Cards
+            cities={cities}
+            onClose={onClose}
           />
-            
-          <Route
-            exact path='/ciudad/:ciudadId'
-            render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
-          />
+        }
+      />
+        
+      <Route
+        exact path='/AgusWeather/ciudad/:ciudadId'
+        render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
+      />
     </div>
   );
 }

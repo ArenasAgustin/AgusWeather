@@ -1,12 +1,13 @@
 import React from 'react';
-import styleAb from './About.module.css';
+import styleAb from './styles/About.module.css';
 
 export default function About(){ return (
-	<div className={styleAb.about}>
-		<h1> About: </h1>
+	<div className={styleAb.aboutCard}>
+		<h2> About: </h2>
 		<div className={styleAb.text}>
-            <div>Nombre: Agustin Arenas</div>
-            <div>Esta app muestra el clima en distintas ciudades</div>
+            <div>Agustin Arenas</div>
+            <div>Estudiante en Soy Henry</div>
+            <div>Esta es mi primer SPA creada utilizando React y obteniendo datos de la API de Open Weather Map, para poder brindar informacion sobre el clima de las ciudades.</div>
         </div>
 	</div>)
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../img/logoHenry.png'
 import SearchBar from './SearchBar.jsx';
-import styleNav from './Nav.module.css';
+import styleNav from './styles/Nav.module.css';
 import { Link } from 'react-router-dom';
 
 
@@ -22,8 +22,8 @@ function Nav({onSearch}) {
           className={styleNav.searchBar}
         />
 
-        <Link to='/AgusWeather/about' className={styleNav.about}>
-          <span>About</span>
+        <Link to='/AgusWeather/about' className={styleNav.anchor}>
+          <h2 className = {styleNav.about}>About</h2>
         </Link>
     </nav>
   );

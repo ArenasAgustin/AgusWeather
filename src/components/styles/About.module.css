@@ -1,0 +1,24 @@
+.aboutCard{
+	color: black;
+	margin: 30px;
+	background: #DBE2EF;
+	background: linear-gradient(90deg, #DBE2EF 0%, #3F72AF 100%);
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #112D4E;
+	box-shadow: 2px 3px 6px #112D4E;
+	padding: 16px;
+}
+
+.aboutCard:hover{
+  transform:scale(1.03);
+}
+
+.text{
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin: 5px;
+}

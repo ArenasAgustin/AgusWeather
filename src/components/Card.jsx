@@ -1,5 +1,5 @@
 import React from 'react';
-import styleCard from './Card.module.css';
+import styleCard from './styles/Card.module.css';
 import { Link } from 'react-router-dom';
 
 export default function Card ({min, max, name, img, onClose, id}) {

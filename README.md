@@ -1,5 +1,7 @@
 # AgusWeather
 
+![image](https://user-images.githubusercontent.com/72575052/139510211-b0062ad6-e50f-441b-ae73-0e4729c1a3e5.png)
+
 Esta Todo App esta creada con React, JavaScript, Css y la Api Open Weather Map.
 
 ### Buscar ciudades

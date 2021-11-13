@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/72575052/139510211-b0062ad6-e50f-441b-ae73-0e4729c1a3e5.png)
 
-Esta Todo App esta creada con React, JavaScript, Css y la Api Open Weather Map.
+Esta App del clima esta creada con React, JavaScript, Css y la Api Open Weather Map.
 
 ### Buscar ciudades
 Para buscar el clima en una ciudad hay que escribir el nombre completo de la ciudad en la barra de busqueda y apretar el botón "Agregar" o apretar ENTER. En cada tarjeta muesta la tempetatura en grados Kelvins, Celcius y Fahrenheits, admas de un icono para poder ver si está soleado, nublado, con lluvia, etc.
